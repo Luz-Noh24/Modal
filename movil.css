@@ -1,0 +1,104 @@
+/* Estilos para dispositivos con pantallas de 480px o menos */
+@media (max-width: 480px) {
+    .header {
+        padding: 10px 0; /* Reduce el espacio en el encabezado */
+        background-color: #F6F1DD;
+    }
+
+    .logo img {
+        max-height: 60px; /* Ajusta la altura del logo para pantallas pequeñas */
+        width: auto;
+    }
+
+    .team-section {
+        padding: 10px; /* Reduce el padding para ahorrar espacio */
+        max-width: 100%; /* Asegura que la sección principal ocupe todo el ancho disponible */
+    }
+
+    .content {
+        flex-direction: column; /* Cambia el diseño a columnas para mejor visualización en móviles */
+        align-items: center; /* Centra los elementos en pantallas pequeñas */
+        gap: 10px; /* Reduce el espacio entre elementos */
+    }
+
+    .text-content h1 {
+        font-size: 24px; /* Disminuye el tamaño del título */
+    }
+
+    .text-content h2 {
+        font-size: 14px; /* Ajusta el subtítulo */
+    }
+
+    .description, .details {
+        font-size: 14px; /* Reduce el tamaño del texto */
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column; /* Coloca los botones en columna */
+        align-items: center;
+        gap: 10px; /* Espacio entre botones */
+    }
+
+    .learn-more, .view-all {
+        width: 100%; /* Asegura que los botones ocupen todo el ancho disponible */
+        font-size: 12px; /* Ajusta el tamaño del texto en los botones */
+    }
+
+    .team-profiles {
+        flex-direction: column; /* Cambia a diseño en columna para mejor visualización en móviles */
+        gap: 15px;
+    }
+
+    .profile {
+        max-width: 100%; /* Asegura que cada perfil ocupe el ancho disponible */
+        padding: 15px; /* Reduce el padding */
+    }
+
+    .profile img {
+        width: 80px; /* Disminuye el tamaño de la imagen del perfil */
+        height: 80px;
+    }
+
+    .profile h3 {
+        font-size: 16px; /* Ajusta el tamaño del texto para nombres */
+    }
+
+    .profile p {
+        font-size: 12px; /* Ajusta el tamaño del texto de la descripción */
+    }
+
+    .contact-button {
+        width: 100%; /* Asegura que el botón ocupe el ancho disponible */
+        font-size: 12px;
+        padding: 8px 0; /* Ajusta el padding para que se vea mejor en pantallas pequeñas */
+    }
+}
+
+/* Estilos adicionales para el modal */
+.modal-content {
+    max-width: 90%; /* Ajusta el ancho del modal para pantallas pequeñas */
+    padding: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-button {
+    width: 100%;
+    background-color: #f25c5e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #d1494f;
+}
