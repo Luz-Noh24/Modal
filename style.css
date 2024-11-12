@@ -1,226 +1,228 @@
 /* Estilos básicos para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f5ed; /* Fondo de la página */
+    font-family: Arial, sans-serif; /* Define la fuente principal */
+    margin: 0; /* Elimina el margen predeterminado del navegador */
+    padding: 0; /* Elimina el relleno predeterminado del navegador */
+    background-color: #f8f5ed; /* Color de fondo de la página */
 }
 
 /* Sección principal que contiene todo */
 .team-section {
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-    background-color: #ffffff;
+    padding: 20px; /* Espacio interno de la sección */
+    max-width: 1200px; /* Ancho máximo de la sección */
+    margin: auto; /* Centra la sección horizontalmente */
+    background-color: #ffffff; /* Fondo blanco de la sección */
 }
 
 /* Encabezado con logo y subtítulo */
 .header {
-    display: flex;
-    justify-content: center; /* Centra el logo horizontalmente */
-    align-items: center; /* Centra el logo verticalmente */
+    display: flex; /* Usa flexbox para organizar el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
     width: 100%; /* Ocupa todo el ancho de la pantalla */
-    padding: 20px 0; /* Ajusta el espacio superior e inferior */
-    background-color: #F6F1DD/* Color de fondo del encabezado */
+    padding: 20px 0; /* Espacio arriba y abajo */
+    background-color: #F6F1DD /* Color de fondo del encabezado */
 }
 
 .logo img {
-    max-height: 80px; /* Ajusta la altura máxima del logo */
-    width: auto; /* Mantiene la proporción de la imagen */
+    max-height: 80px; /* Altura máxima del logo */
+    width: auto; /* Mantiene la proporción original de la imagen */
 }
 
-
 .sub-title {
-    font-size: 14px;
-    color: #999;
+    font-size: 14px; /* Tamaño de fuente del subtítulo */
+    color: #999; /* Color gris para el texto */
 }
 
 /* Flexbox para organizar el contenido */
 .content {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
+    display: flex; /* Flexbox para distribuir el contenido */
+    gap: 20px; /* Espacio entre elementos */
+    justify-content: space-between; /* Distribuye espacio entre los elementos */
 }
 
 /* Contenido de texto sobre el equipo */
 .text-content {
-    max-width: 600px;
+    max-width: 600px; /* Ancho máximo del contenido de texto */
 }
 
 .text-content h2 {
-    font-size: 16px;
-    color: #b5a477;
-    margin: 0;
+    font-size: 16px; /* Tamaño de fuente del subtítulo */
+    color: #b5a477; /* Color del subtítulo */
+    margin: 0; /* Sin espacio arriba y abajo */
 }
 
 .text-content h1 {
-    font-size: 32px;
-    color: #333;
-    margin: 10px 0;
+    font-size: 32px; /* Tamaño de fuente del título */
+    color: #333; /* Color del título */
+    margin: 10px 0; /* Espacio arriba y abajo */
 }
 
 .description, .details {
-    color: #666;
-    line-height: 1.6;
+    color: #666; /* Color del texto descriptivo */
+    line-height: 1.6; /* Espacio entre líneas */
 }
 
 /* Botones de la sección de texto */
 .buttons {
-    margin-top: 20px;
+    margin-top: 20px; /* Espacio arriba del contenedor de botones */
 }
 
 button {
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
+    padding: 10px 20px; /* Relleno dentro del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Muestra el cursor de clic */
+    font-size: 14px; /* Tamaño de fuente */
 }
 
 .learn-more {
-    background-color: #f25c5e;
-    color: #fff;
-    margin-right: 10px;
+    background-color: #f25c5e; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    margin-right: 10px; /* Espacio a la derecha del botón */
 }
 
 .view-all {
-    background-color: #ffffff;
-    color: #333;
-    border: 1px solid #333;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333; /* Color del texto */
+    border: 1px solid #333; /* Borde del botón */
 }
 
 /* Sección de perfiles del equipo */
 .team-profiles {
-    background-color: #f9f9f9;
-    display: flex;
-    gap: 20px;
+    background-color: #f9f9f9; /* Fondo de la sección */
+    display: flex; /* Usa flexbox para organizar perfiles */
+    gap: 20px; /* Espacio entre perfiles */
 }
 
 /* Estilos para cada perfil individual */
 .profile {
-    text-align: center;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 200px;
+    text-align: center; /* Centra el texto */
+    background-color: #f9f9f9; /* Fondo del perfil */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 200px; /* Ancho máximo del perfil */
 }
 
 .profile img {
-    border-radius: 50%; /* Imagen circular */
-    width: 100px;
-    height: 100px;
+    border-radius: 50%; /* Imagen en forma de círculo */
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Alto de la imagen */
 }
 
 .profile h3 {
-    font-size: 18px;
+    font-size: 18px; /* Tamaño de fuente del nombre */
     color: #f25c5e; /* Color del nombre */
-    margin: 10px 0 5px;
+    margin: 10px 0 5px; /* Espacio arriba y abajo */
 }
 
 .profile p {
-    font-size: 14px;
-    color: #666;
-    margin: 5px 0;
+    font-size: 14px; /* Tamaño de fuente para el texto */
+    color: #666; /* Color gris */
+    margin: 5px 0; /* Espacio arriba y abajo */
 }
 
 /* Estilos de los íconos de redes sociales */
 .social-icons {
-    margin: 10px 0;
+    margin: 10px 0; /* Espacio arriba y abajo de los íconos */
 }
 
 .social-icons a {
-    font-family: FontAwesome; /* Necesario para usar los íconos */
-    font-size: 16px;
-    color: #666;
-    margin: 0 5px;
-    text-decoration: none;
+    font-family: FontAwesome; /* Fuente para los íconos */
+    font-size: 16px; /* Tamaño de fuente de los íconos */
+    color: #666; /* Color de los íconos */
+    margin: 0 5px; /* Espacio entre íconos */
+    text-decoration: none; /* Sin subrayado */
 }
 
 /* Botón para contactar en cada perfil */
 .contact-button {
-    background-color: #f25c5e;
-    color: #fff;
-    padding: 8px 16px;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #f25c5e; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    padding: 8px 16px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Muestra el cursor de clic */
 }
 
+/* Botón de modal */
 .btn-modal {
-    text-decoration: none;
-    display: inline-block;
-    margin: auto;
-    border-radius: 40px;
-    background-color: #800000;
-    color: white;
-    padding: 10px 30px;
-    transition: all 1s;
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Se muestra como un bloque en línea */
+    margin: auto; /* Centrado */
+    border-radius: 40px; /* Bordes redondeados */
+    background-color: #800000; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 30px; /* Relleno interno */
+    transition: all 1s; /* Transición de cambio en el estilo */
 }
 
 .btn-modal:hover {
-    background-color: black;
+    background-color: black; /* Cambia el fondo cuando se pasa el mouse */
 }
 
+/* Fondo del modal */
 .modal-background {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 10;
+    display: none; /* Oculto por defecto */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    position: fixed; /* Fijo sobre el contenido */
+    z-index: 10; /* Aparece sobre otros elementos */
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100%; /* Cubre toda la pantalla */
     height: 100%;
-    transition: all 0.5s;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    transition: all 0.5s; /* Transición de cambio en el estilo */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px; /* Espacio interno */
 }
 
 .modal-content {
-    max-width: 800px;
-    background-color: #fefefe;
-    padding: 20px;
-    border: 1px solid #888;
-    overflow: auto;
-    height: 90vh;
+    max-width: 800px; /* Ancho máximo */
+    background-color: #fefefe; /* Fondo blanco */
+    padding: 20px; /* Espacio interno */
+    border: 1px solid #888; /* Borde gris */
+    overflow: auto; /* Habilita el desplazamiento si es necesario */
+    height: 90vh; /* Altura máxima */
 }
 
+/* Alineación del botón de cierre */
 .close-align {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    display: flex; /* Flexbox */
+    justify-content: flex-end; /* Botón a la derecha */
+    align-items: center; /* Alineado al centro vertical */
 }
 
 .show-modal {
-    display: flex;
+    display: flex; /* Muestra el modal */
 }
 
 .close-icon {
-    cursor: pointer;
-    color: red;
-    font-size: 26px;
-    transition: all 0.5s;
+    cursor: pointer; /* Muestra el cursor de clic */
+    color: red; /* Color rojo */
+    font-size: 26px; /* Tamaño del ícono de cierre */
+    transition: all 0.5s; /* Transición en el estilo */
 }
 
 .close-icon:hover {
-    color: black;
+    color: black; /* Cambia el color al pasar el mouse */
 }
 
 .input-field {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Relleno interno */
+    margin: 5px 0 15px; /* Margen arriba y abajo */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
 }
 
 .send-button {
-    background-color: #f25c5e;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #f25c5e; /* Fondo del botón */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Muestra el cursor de clic */
 }
 
 .send-button:hover {
-    background-color: #d1494f;
+    background-color: #d1494f; /* Cambia el fondo al pasar el mouse */
 }

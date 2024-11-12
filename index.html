@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Villas Team</title>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para pantallas móviles -->
+    <title>Royal Villas Team</title> <!-- Título de la página que se muestra en la pestaña del navegador -->
     <!-- Enlace al archivo de estilos CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="movil.css">
-    <script src="https://kit.fontawesome.com/d188054eba.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="style.css"> <!-- Archivo principal de estilos -->
+    <link rel="stylesheet" href="movil.css"> <!-- Archivo de estilos adicional para móviles -->
+    <script src="https://kit.fontawesome.com/d188054eba.js" crossorigin="anonymous"></script> <!-- Librería de iconos FontAwesome -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!-- Librería jQuery para facilitar la manipulación del DOM -->
 </head>
 <body>
     <!-- Sección principal que contiene toda la información del equipo -->
@@ -16,15 +16,15 @@
         <!-- Encabezado con el logo y subtítulo del hotel -->
         <header class="header">
             <div class="logo">
-                <img src="imagenes/logo.jpg" alt="logo">
+                <img src="imagenes/logo.jpg" alt="logo"> <!-- Imagen del logo del hotel -->
             </div>
         </header>
 
         <div class="content">
             <!-- Sección de texto con información sobre el equipo -->
             <div class="text-content">
-                <h2>Our Team</h2>
-                <h1>A Dedicated Team of Experts</h1>
+                <h2>Our Team</h2> <!-- Subtítulo de la sección -->
+                <h1>A Dedicated Team of Experts</h1> <!-- Título principal de la sección -->
                 <p class="description">
                     Passion, experience and a fierce commitment to education are the cornerstones of our success in the beauty industry.
                 </p>
@@ -36,8 +36,8 @@
                 </p>
                 <!-- Botones para más información y para ver a todo el equipo -->
                 <div class="buttons">
-                    <button class="learn-more">LEARN MORE</button>
-                    <button class="view-all">VIEW ALL TEAM</button>
+                    <button class="learn-more">LEARN MORE</button> <!-- Botón para obtener más información -->
+                    <button class="view-all">VIEW ALL TEAM</button> <!-- Botón para ver todo el equipo -->
                 </div>
             </div>
 
@@ -45,30 +45,30 @@
             <div class="team-profiles">
                 <!-- Perfil de Jessica Cooper -->
                 <div class="profile">
-                    <img src="imagenes/foto1.jpg" alt="Jessica Cooper">
-                    <h3>Jessica Cooper</h3>
-                    <p>Esthetician</p>
+                    <img src="imagenes/foto1.jpg" alt="Jessica Cooper"> <!-- Imagen de Jessica Cooper -->
+                    <h3>Jessica Cooper</h3> <!-- Nombre del miembro del equipo -->
+                    <p>Esthetician</p> <!-- Cargo o especialidad del miembro -->
                     <!-- Íconos de redes sociales -->
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a> <!-- Enlace a Facebook -->
+                        <a href="#"><i class="fab fa-twitter"></i></a> <!-- Enlace a Twitter -->
+                        <a href="#"><i class="fab fa-pinterest"></i></a> <!-- Enlace a Pinterest -->
                     </div>
-                    <button class="contact-button">GET IN TOUCH</button>
+                    <button class="contact-button">GET IN TOUCH</button> <!-- Botón para contactar al miembro -->
                 </div>
 
                 <!-- Perfil de Robert Wagner -->
                 <div class="profile">
-                    <img src="imagenes/foto2.jpg" alt="Robert Wagner">
-                    <h3>Robert Wagner</h3>
-                    <p>Hairdresser</p>
+                    <img src="imagenes/foto2.jpg" alt="Robert Wagner"> <!-- Imagen de Robert Wagner -->
+                    <h3>Robert Wagner</h3> <!-- Nombre del miembro del equipo -->
+                    <p>Hairdresser</p> <!-- Cargo o especialidad del miembro -->
                     <!-- Íconos de redes sociales -->
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-pinterest"></i></a>
                     </div>
-                    <button class="contact-button">GET IN TOUCH</button>
+                    <button class="contact-button">GET IN TOUCH</button> <!-- Botón para contactar al miembro -->
                 </div>
             </div>
         </div>
@@ -78,15 +78,15 @@
 <section id="modal" class="modal-background">
     <div class="modal-content">
         <div class="close-align">
-            <i id="close-modal" class="close-icon fas fa-times-circle"></i>
+            <i id="close-modal" class="close-icon fas fa-times-circle"></i> <!-- Ícono para cerrar el modal -->
         </div>
-        <h1>Contact Us</h1>
+        <h1>Contact Us</h1> <!-- Título del modal de contacto -->
         <p>If you have any questions concerning our service, please fill out the contact form below.</p>
         <form action="">
-            <input type="text" class="input-field" name="name" placeholder="Name*" required>
-            <input type="email" class="input-field" name="email" placeholder="Email*" required>
-            <textarea class="input-field" name="message" placeholder="Message"></textarea>
-            <button type="submit" class="send-button">Send</button>
+            <input type="text" class="input-field" name="name" placeholder="Name*" required> <!-- Campo para ingresar el nombre -->
+            <input type="email" class="input-field" name="email" placeholder="Email*" required> <!-- Campo para ingresar el correo electrónico -->
+            <textarea class="input-field" name="message" placeholder="Message"></textarea> <!-- Campo para ingresar un mensaje -->
+            <button type="submit" class="send-button">Send</button> <!-- Botón para enviar el formulario -->
         </form>
     </div>
 </section>
@@ -95,26 +95,26 @@
 <script>
     // Abre el modal al hacer clic en el botón de contacto
     $(".contact-button").click(function (event) {
-        event.preventDefault();
-        $("#modal").addClass("show-modal");
+        event.preventDefault(); // Evita que se recargue la página
+        $("#modal").addClass("show-modal"); // Agrega clase para mostrar el modal
     });
 
     // Cierra el modal al hacer clic en el botón de cerrar
     $("#close-modal").click(function () {
-        $("#modal").removeClass("show-modal");
+        $("#modal").removeClass("show-modal"); // Quita la clase para ocultar el modal
     });
 
     // Cierra el modal al hacer clic fuera del contenido modal
     window.onclick = function (event) {
         if (event.target == document.getElementById("modal")) {
-            $("#modal").removeClass("show-modal");
+            $("#modal").removeClass("show-modal"); // Quita la clase para ocultar el modal
         }
     };
 
     // Cierra el modal al presionar la tecla ESC
     document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape') {
-            $("#modal").removeClass("show-modal");
+        if (event.key === 'Escape') { // Verifica si se presiona la tecla "Escape"
+            $("#modal").removeClass("show-modal"); // Quita la clase para ocultar el modal
         }
     });
 </script>
